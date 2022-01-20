@@ -34,7 +34,7 @@ The dataset is composed of **19020** distinct records with **11** attributes and
 
 The Dataset is clearly imbalance since there are **12332 (65%)** samples labelled with Gamma and **6688 (35%)** labelled as Hadron.
 
-## Training Pipeline
+## Training Pipeline (more details in ./report.pdf)
 1. Local Outlier Factor 
 2. Stratified Training/Test split
 3. Robust Scaler
@@ -42,7 +42,7 @@ The Dataset is clearly imbalance since there are **12332 (65%)** samples labelle
 5. Stratified Cross Validation
 6. Random Grid Search
 
-## Experiments 
+## Experiments (more details in ./report.pdf)
 Multiple experiments have been performed to truly understand the importance of each step in the training pipeline. More precisely, the analyzed steps are the **Outliers Removal**, the application of the **Scaler** and the type of **Up-sampling**. 
 | Ablation | Parameter
 |-----------|----------
